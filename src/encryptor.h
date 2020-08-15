@@ -7,7 +7,7 @@ class Encryptor {
 
     public:
         Encryptor(std::string pass);
-        bool encrypt();
+        bool encrypt(std::string &str);
 
     private:
         std::string password;

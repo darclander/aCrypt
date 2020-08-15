@@ -4,6 +4,9 @@ Encryptor::Encryptor(std::string pass) {
     password = pass;
 }
 
-bool Encryptor::encrypt() {
-    
+bool Encryptor::encrypt(std::string &str) {
+
+    std::cout << str;
+    return false;
+
 }
