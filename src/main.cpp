@@ -30,6 +30,12 @@ int main(int argc, char *argv[]) {
     fileContent = fhandler.open(pathToFile); // Opens file, see FileHandler.open()
     std::cout << fileContent;
     encryptor.encrypt(fileContent); // Currently prints the content of the file, will later encrypt the fileContent string
+
+    std::cout << fileContent;
+
     
+
+    
+
     return 0;
 } 

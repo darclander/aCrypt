@@ -6,7 +6,11 @@ Encryptor::Encryptor(std::string pass) {
 
 bool Encryptor::encrypt(std::string &str) {
 
+    str = "asdasda";
     std::cout << str;
+    str.replace(1, 2, "xx");
+
+    
     return false;
 
 }
